@@ -48,6 +48,7 @@ Type: `String`
 Default value: `'buddha'`
 
 指明是哪一种
+alpaca or buddha
 #### options.commentSymbol
 Type: `String`
 Default value: `'//'`
@@ -65,7 +66,7 @@ grunt.initConfig({
   lennon: {
     options: {
       'who':'buddha,
-          'commentSymbol':'//'
+      'commentSymbol':'//'
     },
     dist:['examples/*.js']
   },
